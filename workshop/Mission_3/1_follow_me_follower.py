@@ -9,4 +9,7 @@ from ev3dev2.sensor.lego import InfraredSensor
 pickwickCar = PickwickCar(OUTPUT_B, OUTPUT_D)
 
 # Connect to the cars infrared (distance) sensor
-sensor = InfraredSensor(INPUT_1)
+infrared_sensor = InfraredSensor(INPUT_1)
+
+# Follow the object (robot) in front of the robot by adapting your speed. 
+# Do not crash into the object
